@@ -1,0 +1,11 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 20px; }
+.container { max-width: 800px; margin: 0 auto; }
+.form-group { margin-bottom: 10px; }
+.item { display: flex; gap: 10px; margin-bottom: 10px; }
+#invoice-preview { margin-top: 30px; border: 1px solid #ccc; padding: 20px; }
+button { padding: 8px 16px; cursor: pointer; }
+@media print {
+  #export-pdf, #print {
+    display: none;
+  }
+}
